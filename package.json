@@ -1,0 +1,29 @@
+{
+  "name": "react-native-plain",
+  "version": "1.0.0",
+  "description": "To be a component library.",
+  "main": "index.tsx",
+  "source": "index.tsx",
+  "scripts": {
+    "typescript":"tsc --noEmit",
+    "build": "node build.js",
+    "pack": "npm pack ."
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "ios",
+    "component library",
+    "ui kit"
+  ],
+  "author": "Chetan Waghade",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.72.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "typescript": "^5.2.2"
+  }
+}
